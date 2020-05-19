@@ -1,95 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Header section containg the navigation menu and or sign in/ log in links-->
-        <header>
-            <nav>
-                <ul class="main-nav">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Google</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- Header section containg the navigation menu and or sign in/ log in links-->
+		<header>
+			<nav>
+				<ul class="main-nav">
+					<li>
+						<a href="#">Gmail</a>
+					</li>
 
-                    <li>
-                        <a href="#">Gmail</a>
-                    </li>
+					<li>
+						<a href="#">Images</a>
+					</li>
 
-                    <li>
-                        <a href="#">Images</a>
-                    </li>
+					<li>
+						<a href="#"
+							><img class="img-icon-link" src="google-apps.png" alt="apps"
+						/></a>
+					</li>
 
-                    <li>
-                        <a href="#"><img class="img-icon-link" src="google-apps.png" alt="apps"></a>
-                    </li>
+					<li>
+						<a href="#" class="sign-in">Sign in</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-                    <li>
-                        <a href="#" class="sign-in">Sign in</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+		<!-- Main section containing the img, search and button components -->
+		<main>
+			<!-- the image section -->
+			<div class="flex-container">
+				<div class="img-container">
+					<img src="googlelogo_color_272x92dp.png" alt="Google Logo" />
+				</div>
 
-    <!-- Main section containing the img, search and button components -->
-    <main>
-        <!-- the image section -->
-        <div class="flex-container">
-            <div class="img-container">
-                <img src="googlelogo_color_272x92dp.png" alt="Google Logo">
-            </div>
-        
-            <!-- The form section -->
-            <form class="input-flex"> 
-                <input class="my-input" type="text" id="search" autofocus>
-            </form>
-    
-            <div class="btn-class">
-                <button class="btn btn-shift">Google Search</button>
-                <button class="btn">I'm Feeling Lucky</button>
-            </div>
-        </div>
-    </main>
+				<!-- The form section -->
+				<form class="input-flex">
+					<input class="my-input" type="text" id="search" autofocus />
+				</form>
 
-    <!-- Footer's section containing Country's text and navigation links -->
-    <footer>
-        <!-- Country's text -->
-        <div class="country">
-            <span class="country-style">Nigeria</span>
-        </div>
+				<div class="btn-class">
+					<button class="btn btn-shift">Google Search</button>
+					<button class="btn">I'm Feeling Lucky</button>
+				</div>
+			</div>
+		</main>
 
-        <!-- foorter's nav links -->
-        <nav>
-            <ul class="footer-nav">
-                <li>
-                    <a href="#">Advertising</a>
-                </li>
+		<!-- Country's text -->
+		<div class="country">
+			<span class="country-style">Nigeria</span>
+		</div>
+		<!-- Footer's section containing navigation links -->
+		<footer>
+			<!-- foorter's nav links -->
+			<nav>
+				<div class="footer-nav-container">
+					<ul class="footer-nav-1 footer-nav">
+						<li>
+							<a href="#">Advertising</a>
+						</li>
 
-                <li>
-                    <a href="#">Business</a>
-                </li>
+						<li>
+							<a href="#">Business</a>
+						</li>
 
-                <li>
-                    <a href="#">About</a>
-                </li>
+						<li>
+							<a href="#">About</a>
+						</li>
 
-                <li>
-                    <a href="#">How Search works</a>
-                </li>
+						<li>
+							<a href="#">How Search works</a>
+						</li>
+					</ul>
+					<ul class="footer-nav-2 footer-nav">
+						<li>
+							<a href="#">Privacy</a>
+						</li>
 
-                <li>
-                    <a href="#">Privacy</a>
-                </li>
+						<li>
+							<a href="#">Terms</a>
+						</li>
 
-                <li>
-                    <a href="#">Terms</a>
-                </li>
-
-                <li>
-                    <a href="#">Settings</a>
-                </li>
-            </ul>
-        </nav>
-    </footer>
-</body>
+						<li>
+							<a href="#">Settings</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</footer>
+	</body>
 </html>
