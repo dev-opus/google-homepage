@@ -21,11 +21,11 @@
                     </li>
 
                     <li>
-                        <a href="#"><img src="google-apps.png" alt="apps"></a>
+                        <a href="#"><img class="img-icon-link" src="google-apps.png" alt="apps"></a>
                     </li>
 
                     <li>
-                        <a href="#">Sign in</a>
+                        <a href="#" class="sign-in">Sign in</a>
                     </li>
                 </ul>
             </nav>
@@ -34,19 +34,62 @@
     <!-- Main section containing the img, search and button components -->
     <main>
         <!-- the image section -->
-        <div class="img-container">
-            <img src="googlelogo_color_272x92dp.png" alt="Google Logo">
-        </div>
+        <div class="flex-container">
+            <div class="img-container">
+                <img src="googlelogo_color_272x92dp.png" alt="Google Logo">
+            </div>
+        
+            <!-- The form section -->
+            <form class="input-flex"> 
+                <input class="my-input" type="text" id="search" autofocus>
+            </form>
     
-        <!-- The form section -->
-        <form class="input-flex"> 
-            <input class="my-input" type="text" id="search" autofocus>
-        </form>
-
-        <div class="btn-class">
-            <button class="btn btn-shift">Google Search</button>
-            <button class="btn">I'm Feeling Lucky</button>
+            <div class="btn-class">
+                <button class="btn btn-shift">Google Search</button>
+                <button class="btn">I'm Feeling Lucky</button>
+            </div>
         </div>
     </main>
+
+    <!-- Footer's section containing Country's text and navigation links -->
+    <footer>
+        <!-- Country's text -->
+        <div class="country">
+            <span class="country-style">Nigeria</span>
+        </div>
+
+        <!-- foorter's nav links -->
+        <nav>
+            <ul class="footer-nav">
+                <li>
+                    <a href="#">Advertising</a>
+                </li>
+
+                <li>
+                    <a href="#">Business</a>
+                </li>
+
+                <li>
+                    <a href="#">About</a>
+                </li>
+
+                <li>
+                    <a href="#">How Search works</a>
+                </li>
+
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+
+                <li>
+                    <a href="#">Settings</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
