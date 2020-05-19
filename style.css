@@ -23,6 +23,7 @@ main {
     list-style-type: none;
     border-radius: .25em;
     justify-content: flex-end;
+    align-items: center;
     margin-top: 0.75em;
 }
 
@@ -56,16 +57,19 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .my-input {
-    margin-top: 1.5em;
+    margin-top: 1em;
     width: 550px;
     height: 42px;
     border-radius: 1.5em;
     border: 1px solid rgba(211, 211, 211, 0.87);
     outline: none;
+    background-image: url(icons8-google-web-search-32.png);
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
 }
 
 
@@ -94,6 +98,21 @@ main {
     color: #222;
 }
 
+.offered-class {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.offered-class .offered-in-anchor-space {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 3px;
+}
+
+.offered-class .offered-in-anchor-space:hover {
+    text-decoration: underline;
+}
+
 footer {
     background-color: rgba(230, 230, 230, 0.87);
     flex-shrink: 0;
@@ -106,7 +125,7 @@ footer {
 .footer-nav-1,
 .footer-nav-2 {
     display: flex;
-    padding:   1em .5em;
+    padding:   .5em .5em;
     list-style-type: none;
     border-radius: .25em;
     justify-content: flex-start;
@@ -135,6 +154,7 @@ footer {
 }
 
 .country {
+    margin-bottom: 0;
     border-bottom: 1px solid lightgray;
     background-color: rgba(230, 230, 230, 0.87);
 }
