@@ -1,0 +1,43 @@
+@import "normalize.css";
+
+
+main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-flex {
+    display: flex;
+}
+
+
+.my-input {
+    margin-top: 2.5em;
+    width: 550px;
+    height: 42px;
+    border-radius: 1.5em;
+    border: 1px solid rgba(211, 211, 211, 0.87);
+    outline: none;
+}
+
+
+.btn-shift {
+    margin-right: 10px;
+}
+
+.btn-class {
+    margin: 40px auto;
+}
+
+.btn {
+    text-align: center;
+    padding: 6.5px 16px;
+
+    color: #5F6368;
+    border: 1px solid rgba(211, 211, 211, 0.87);
+    border-radius: .25em;
+    background-color: #f2f2f2;;
+}
