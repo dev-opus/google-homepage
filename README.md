@@ -1,6 +1,6 @@
 This is my implementation of TOP web dev 101 HTML/CSS project (EASY).
 
-In this project, I was created a replica of the google.com standard
+In this project, I created a replica of the google.com standard
 homepage using skills and techniques such as:
 CSS3 flexbox
 Chrome DevTools etc.
